@@ -44,3 +44,42 @@
 
 --> React uses some of the Algorithms behind the scenes 
 
+# Reconcilation process in React
+
+
+-->  In React, reconciliation is the process of updating the DOM to match the React component's virtual DOM .
+
+-->  When the state or props of a component change, React creates a new virtual DOM tree and compares it with the previous one .
+
+-->  This process, known as "diffing," identifies changes, which are then efficiently updated in the actual DOM .
+
+-->  This ensures that the UI stays in sync with the data without unnecessary re-renders.
+
+
+# React Fiber
+
+
+--> A Fiber in React is a Plain Javascript object With some properties 
+
+--> Fiber reconciler = current React reconciler based on the Fiber ( React >= 16) 
+
+--> Complete rewrite of React that fixes long standing issues 
+
+--> Offers Incredible opportunities for the future use .
+
+--> Fiber focuses on the Animations and responsiveness .
+
+--> It can split work into the chunks and priortize the tasks .
+
+--> It reuse the work or abort it if it is not needeed .
+
+-->  Fiber is Asynchronous .
+
+
+
+
+
+
+
+
+
